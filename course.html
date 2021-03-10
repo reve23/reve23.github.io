@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Courses</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Assets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/course.css">
 </head>
+
 <body>
     <nav>
-        <div class="logo"><h3>ReVe
-            <br><h6>The Dream</h6>
-        </h3></div>
+        <div class="logo">
+            <h3>ReVe
+                <br>
+                <h6>The Dream</h6>
+            </h3>
+        </div>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="card.html">Download</a></li>
@@ -20,21 +26,56 @@
         </ul>
     </nav>
     <div class="line"></div>
+    <div class="assests">
+        <h2>PyQt5 Fundamentals #part3</h2>
+        <p class="one">
+            In this lesson we are going to learn Qlabel.
 
-    <div class="course">
-        <img src="img/dj.png" alt="">
-        <div class="text">Build websites with django. Django full course for beginner.</div>
-        <button type="submit" class="btn">Get the course</button>
-    </div>
-    <div class="course2">
-        <img src="img/python.webp" alt="">
-        <div class="text2">Python for beginner</div>
-        <button type="submit" class="btn2">Get the course</button>
-    </div>
-    <div class="course3">
-        <img src="img/tensor.png" alt="">
-        <div class="text3">Advance Library for Machine learning in Python. | Tensorflow</div>
-        <button type="submit" class="btn3">Get the course</button>
+            The QLabel is one of the simplest widgets in PyQt with the ability to display lines of text.
+            This widget comes with many supporting functions and methods to allow us to retrieve and
+            update this text whenever we want. <br>
+
+            for this now we will make another file in our directory and call it class3.py
+            then we will import important files that we would need in order to get started. <br>
+
+
+            now we are going to make our class as it is <br> <br>
+
+            nOw we are going to update some changes and make a label <br>
+
+            the various changes are: we need to make a label we define a variable called label and pass window <br>
+
+            Calling the QtWidgets.QLabel() creates a label object which we
+            can use for our GUI. Passing the window object we created (win) into it’s parameters declares that the
+            label is part of that window <br>
+            A simple line of code that sets the Text for the label that gets displayed on the window <br>
+
+            QLabels have a default size that is declared when they are created.
+            For long lines of text, such as the one we passed into setText(), the default size is too small. Luckily,
+            we just have the call a single method adjustSize() will cause the QLabel to automatically adjust it’s
+            size.
+            Not doing this will result in the text only appearing partially on the screen. <br>
+
+            This line determines the starting position of the QLabel when it appears on the screen. Passing (100, 100)
+            will
+            result in the top left hand corner of the label appearing at coordinates (100 , 100). Keep in mind that
+            the top left hand corner of the screen has the position (0, 0). <br> <br>
+
+            move() is a very basic layout system, and not suitable for actual projects. PyQt5 comes with actual
+            layouts, in charge of managing positions of the widgets inside
+            the window. Learn more about them in our PyQt5 layout management tutorial. <br>
+            github link : https://github.com/reve23/pyat5.git <br>
+
+            This is a small session in the next session we are going to take a look at the methods are available in in
+            qlabel. <br> <br>
+            Thanks for watching i will see you in the nextlesson.
+        </p>
+        <div class="video1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Yg3BWBkII50" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
     </div>
 </body>
+
 </html>
