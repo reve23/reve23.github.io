@@ -9,7 +9,6 @@
 .logo{
     width: 100%;
     height: 70px;
-    /* background-color: skyblue; */
     color: white;
 }
 .logo h2{
@@ -60,7 +59,6 @@
     margin-top: 110px;
 }
 .content-text{
-    /* text-align: center; */
     color: white;
     font-size: 36px;
     padding: 10px
@@ -118,17 +116,15 @@ h3{
     height: 400px;
     justify-content: center;
     display: flex;
-    /* justify-items: space-between; */
     justify-content: space-around;
     margin: 100px 0px 0px 10px;
     box-shadow: #121326;
     box-sizing: border-box;
-    /* color: aqua; */
     /* background-color: whitesmoke; */
 }
 .price-clm, .price-clm1, .price-clm2{
     justify-content: center;
-    /* margin: 10px; */
+    
     border: 3px solid gray;
     border-radius: 5px;
     box-shadow: black;
