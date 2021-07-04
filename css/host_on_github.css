@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+h1{
+    padding: 20px;
+    margin: 5rem;
+}
+ol{
+    padding: 20px;
+    margin: 10rem;
+}
+li{
+    margin: 10rem;
+}
